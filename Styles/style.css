@@ -5,12 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  transition: all 0.4s ease;
+  transition: all .3s ease;
 }
 html {
   scroll-behavior: smooth;
 }
-
 section {
   padding: 100px 0;
 }
@@ -26,59 +25,10 @@ footer {
 /*---------------------------------------------------*/
 /* NAVIGATOR BAR */
 /*---------------------------------------------------*/
-.navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-  padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
-  transition: all 0.3s ease;
-}
-
-.navbar .max-width {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar .logo a {
-  text-decoration: none;
-  color: rgb(21, 10, 10);
-  font-size: 45px;
-  font-weight: 600;
-}
-.navbar .logo a span {
-  color: rgb(60, 140, 244);
-  transition: all 0.3s ease;
-}
-.navbar.apear .logo a span {
-  color: rgb(60, 152, 244);
-}
-.navbar .menu li {
-  list-style: none;
-  display: inline-block;
-}
-.navbar .menu li a {
-  text-decoration: none;
-  display: block;
-  color: #fff;
-  font-size: 22px;
-  font-weight: 500;
-  margin-left: 25px;
-}
-.navbar .menu li a:hover {
-  font-size: 25px;
-  color: rgb(244, 179, 60);
- 
-}
-.navbar.apear .menu li a:hover {
-  color: rgb(244, 179, 60);
-}
 
 .home {
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/main_page.jpg);
-  color: rgb(124, 120, 91);
+  color: rgba(0,0,0);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -104,81 +54,9 @@ footer {
   margin: 5px 0;
 }
 
-.section{
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-  background-color: rgb(227, 232, 216,0.9);
-}
-.section-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-  font-family: "Poppins", sans-serif;
-}
-.work__container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 40px;
-  column-gap: 8px;
-  margin: auto;
-  place-items: center;
-}
-.work__img{
-  display: flex;
-  flex-direction: column;
-  background-color: bisque;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-  width: 400px;
-  height: 450px;
-  padding: 0;
-}
-.work__img img{
-  transition: 1s;
-  cursor: pointer;
-  width: 100%;
-}
-.work__img img:hover{
-  transform: scale(1.05);
-}
-.project-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-}
-
-/* -----------------------------------*/
-/* FOOTER SECTION STYLING */
-/* -----------------------------------*/
-
-footer {
-  background: rgb(1, 48, 4);
-  height: 80px;
-  padding: 15px 23px;
-  color: #fff;
-  text-align: center;
-}
-footer span a {
-  color: rgb(248, 244, 30);
-  text-decoration: none;
-}
-footer span a:hover {
-  color: rgb(70, 255, 70);
-  font-size: 18px;
-  text-decoration: none;
-}
-
-
-
 /* -----------------------------------*/
 /*RESPONSIVE FEATURES*/
 /* -----------------------------------*/
-
-
-
 
 @media (max-width: 991px) {
   .max-width {

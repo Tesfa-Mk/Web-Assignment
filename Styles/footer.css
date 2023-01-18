@@ -1,19 +1,21 @@
 /* FOOTER SECTION STYLING */
 footer {
-  background: rgb(32, 34, 43);
+  background: rgb(23, 23, 24);
   height: 50px;
-  padding: 5px 23px;
-  color: #fff;
-  text-align: center;
+  color: rgb(227, 232, 216,);;
   position: relative;
   top: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 4px;
 }
 footer span a {
   color: rgb(248, 244, 30);
   text-decoration: none;
 }
 footer span a:hover {
-  color: rgb(97, 210, 224);
-  font-size: 18px;
+  color: goldenrod;
+  font-size: 20px;
   text-decoration: none;
 }

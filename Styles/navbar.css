@@ -16,15 +16,18 @@
 
 /* navbar styling */
 .navbar {
-  background-color: rgb(227, 232, 216);
-  position: fixed;
-  margin-bottom: 0px;
+  background-color: black;
+  position: sticky;
+  margin-bottom: 0 auto;
   width: 100%;
   z-index: 999;
-  padding: 12px 0;
+  padding: 2px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  box-shadow: 0 0 4px ;
+  box-shadow: 0 0 4px 4px goldenrod;
+  top: 0;
+  
+  
 }
 .navbar .max-width {
   display: flex;
@@ -51,14 +54,14 @@
 .navbar .menu li a {
   text-decoration: none;
   display: block;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(227, 232, 216);
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
 }
 .navbar .menu li a:hover {
   font-size: 21px;
-  color: black;
+  color: rgb(231, 153, 36);
 }
 .navbar.apear .menu li a:hover {
   color: #fff;

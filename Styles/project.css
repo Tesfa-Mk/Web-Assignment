@@ -21,24 +21,23 @@ body{
   top: 79px;
 }
 .section-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 90px;
+  display: inline-block;
+  margin:0px 0px 70px 24vw;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   color: antiquewhite;
+  text-align: center;
   
 }
 
 .hover-underline-animation:after {
   content: '';
   position: absolute;
-  width: 54.5%;
+  width: 961px;
   transform: scaleX(0);
   height: 2px;
   top: 79px;
-  left: 400px;
+  left:24vw;
   background-color: 
 goldenrod;
   transform-origin: bottom right;

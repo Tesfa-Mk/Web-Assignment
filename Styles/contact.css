@@ -157,7 +157,12 @@ section .title::after {
   color: rgb(0, 0, 0);
   background: none;
 }
-
+@media (max-width: 947px) {
+  .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
 .fa:hover {
   
   opacity: 0.6;
@@ -207,11 +212,6 @@ section .title::after {
 
 
 
-@media (max-width: 947px) {
-  .contact .contact-content .column {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-}
+
 
 

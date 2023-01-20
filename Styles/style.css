@@ -44,7 +44,8 @@ footer {
 }
 
 .home .home-content .text-1 {
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 .home .home-content .text-2 {
   font-size: 75px;
@@ -55,87 +56,78 @@ footer {
   font-size: 50px;
   margin: 5px 0;
 }
+.text-1{
+  opacity: 0;
+  animation: letterOne 1s 0.5s forwards;
+}
+.text-2 span{
+  opacity: 0;
+  
+}
+.l1{
+  animation: letterOne 1s 1s forwards;
+}
+.l2{
+  animation: letterOne 1s 1.5s forwards;
+}
+.l3{
+  animation: letterOne 1s 2s forwards;
+}
+.l4{
+  animation: letterOne 1s 2.5s forwards;
+}
+.l5{
+  animation: letterOne 1s 3s forwards;
+}
+.l6{
+  animation: letterOne 1s 3.5s forwards;
+}
+.l7{
+  animation: letterOne 1s 4s forwards;
+}
+.l9{
+  animation: letterOne 1s 4.5s forwards;
+}
+.l10{
+  animation: letterOne 1s 5s forwards;
+}
+.l12{
+  animation: letterOne 1s 5.5s forwards;
+}
+.l13{
+  animation: letterOne 1s 6s forwards;
+}
+.l14{
+  animation: letterOne 1s 6.5s forwards;
+}
+.l16{
+  animation: letterOne 1s 7s forwards;
+}
+.l17{
+  animation: letterOne 1s 7.5s forwards;
+}
+.l18{
+  animation: letterOne 1s 8s forwards;
+}
+.l19{
+  animation: letterOne 1s 8.5s forwards;
+}
+.l20{
+  animation: letterOne 1s 9s forwards;
+}
+.l21{
+  animation: letterOne 1s 9.5s forwards;
+}
+.l22{
+  animation: letterOne 1s 10s forwards;
+}
+@keyframes letterOne{
+   to {opacity: 1;}
+}
+
+
 
 /* -----------------------------------*/
 /*RESPONSIVE FEATURES*/
 /* -----------------------------------*/
 
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
-@media (max-width: 947px) {
-  .menu-btn {
-    display: block;
-    z-index: 999;
-  }
-  .menu-btn i.active:before {
-    content: "\f00d";
-  }
-  
-    .navbar .menu {
-      position: fixed;
-      height: 100vh;
-      left: 80%;
-      top: 0;
-      text-align: center;
-      transition: all 0.3s ease;
-     
-      
-    }
-  
-  .navbar .menu.active {
-    left: 0;
-  }
-  .navbar .menu li {
-    display: block;
-  }
-  .navbar .menu li a {
-    display: inline-block;
-    margin: 20px 0;
-    font-size: 25px;
-  }
-  .home .home-content .text-2 {
-    font-size: 70px;
-  }
-  .home .home-content .text-3 {
-    font-size: 35px;
-  }
-  .home .home-content a {
-    font-size: 23px;
-    padding: 10px 30px;
-  }
-  .max-width {
-    max-width: 930px;
-  }
-  .about .about-content .column {
-    width: 100%;
-  }
-  .about .about-content .left {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-  }
-  .about .about-content .right {
-    flex: 100%;
-  }
-@media (max-width: 470px){}
-
-   .home .home-content .text-1 {
-    font-size: 20px;
-  }
-  .home .home-content .text-2 {
-    font-size: 10px;
-  }
-  .home .home-content .text-3 {
-    font-size: 3px;
-  }
-  .home .home-content a {
-    font-size: 23px;
-    padding: 10px 30px;
-  }
-  .max-width {
-    max-width: 930px;
-  }
-}

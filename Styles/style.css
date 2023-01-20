@@ -9,12 +9,15 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: black;
+}
+body{
+  padding-top: 50px;
 }
 section {
   padding: 100px 0;
 }
 .max-width {
-  max-width: 100%;
   padding: 0 80px;
   margin: auto;
 }

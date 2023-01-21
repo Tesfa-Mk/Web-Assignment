@@ -10,10 +10,95 @@ html {
   scroll-behavior: smooth;
   background-color: black;
   color: rgb(227, 232, 216);
+  position: relative;
 }
 body{
   padding-top: 50px;
+  background-image: linear-gradient(rgba(31, 15, 1, 0.9), rgba(7, 7, 7, 0.5)),
+    url(../images/shubham-dhage-aecIHElCkQI-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    
 }
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.max-width {
+  padding: 0 80px;
+  margin: auto;
+}
+
+
+.navbar {
+  position: sticky;
+  margin-bottom: 0 auto;
+  width: 100%;
+  z-index: 999;
+  padding: 2px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  top: 0;
+  
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  text-decoration: none;
+  color: rgb(198, 204, 202);
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span {
+  color: rgb(211, 163, 5);
+}
+.logo  span:hover {
+  font-size: 45px;
+  transition: all 0.6s ease;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  text-decoration: none;
+  display: block;
+  color: rgb(201, 197, 192);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+.navbar .menu li a:hover {
+  font-size: 21px;
+  color: rgb(231, 153, 36);
+}
+.navbar.apear .menu li a:hover {
+  color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn {
+  color: rgb(243, 214, 159);
+  font-size: 23px;
+  cursor: pointer;
+  
+}
+
+/* responsive media query start */
+
+
+
 .section{
   width: 100%;
   padding: 20px 0 50px 0;
@@ -25,9 +110,8 @@ body{
   margin:0px 0px 70px 24vw;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
-  color: antiquewhite;
+  color: rgb(156, 148, 148);
   text-align: center;
-  
 }
 
 .hover-underline-animation:after {
@@ -59,18 +143,21 @@ goldenrod;
 .work__img{
   display: flex;
   flex-direction: column;
-  box-shadow: 0 8px 25px rgba(235, 163, 7, 0.315);
-  border-radius: .5rem;
-  overflow: hidden;
-  width: 400px;
-  height: 450px;
+  border-radius: 0.5rem;
   padding: 0;
-  background-color: rgba(10, 10, 10, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+}
+.work_img_container{
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  overflow: hidden;
 }
 .work__img img{
   transition: 1s;
   cursor: pointer;
   width: 100%;
+  
 }
 .work__img img:hover{
   transform: scale(1.05);
@@ -79,11 +166,42 @@ goldenrod;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 70px;
   font-weight: 600;
   font-size: 25px;
+  color: black;
+}
+.basket{
+  background-color:#1B244A;
+  color:antiquewhite; 
+  border-radius: .5rem;
+}
+.tour{
+  background-color: rgba(0, 0, 0, 0);
+  color: antiquewhite;
 }
 .project-title:hover{
   letter-spacing: 2px;
-  color:goldenrod;
+}
+/* FOOTER SECTION STYLING */
+footer {
+  background: rgb(29, 28, 28);
+  height: 50px;
+  color: rgb(156, 134, 61);;
+  position: relative;
+  bottom: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 4px;
+  width: 100%;
+}
+footer span a {
+  color: rgb(125, 129, 129);
+  text-decoration: none;
+}
+footer span a:hover {
+  color: goldenrod;
+  font-size: 20px;
+  text-decoration: none;
 }

@@ -25,7 +25,7 @@ body{
   margin:0px 0px 70px 24vw;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
-  color: antiquewhite;
+  color: rgb(156, 148, 148);
   text-align: center;
 }
 
@@ -58,18 +58,22 @@ goldenrod;
 .work__img{
   display: flex;
   flex-direction: column;
-  box-shadow: 0 8px 25px rgba(235, 163, 7, 0.315);
-  border-radius: .5rem;
-  overflow: hidden;
-  width: 400px;
-  height: 450px;
+  box-shadow: 0 8px 25px rgba(245, 243, 240, 0.315);
+  border-radius: 0.5rem;
   padding: 0;
-  background-color: rgba(10, 10, 10, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+}
+.work_img_container{
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  overflow: hidden;
 }
 .work__img img{
   transition: 1s;
   cursor: pointer;
   width: 100%;
+  
 }
 .work__img img:hover{
   transform: scale(1.05);
@@ -78,11 +82,16 @@ goldenrod;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 70px;
   font-weight: 600;
   font-size: 25px;
+  color: black;
+}
+.basket{
+  background-color:#1B244A;
+  color:antiquewhite; 
+  border-radius: .5rem;
 }
 .project-title:hover{
   letter-spacing: 2px;
-  color:goldenrod;
 }

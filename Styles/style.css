@@ -65,61 +65,61 @@ footer {
   
 }
 .l1{
-  animation: letterOne 1s 1s forwards;
+  animation: letterOne 0.5s 0.5s forwards;
 }
 .l2{
-  animation: letterOne 1s 1.5s forwards;
+  animation: letterOne 0.5s 0.7s forwards;
 }
 .l3{
-  animation: letterOne 1s 2s forwards;
+  animation: letterOne 0.5s 0.9s forwards;
 }
 .l4{
-  animation: letterOne 1s 2.5s forwards;
+  animation: letterOne 0.5s 1.1s forwards;
 }
 .l5{
-  animation: letterOne 1s 3s forwards;
+  animation: letterOne 0.5s 1.3s forwards;
 }
 .l6{
-  animation: letterOne 1s 3.5s forwards;
+  animation: letterOne 0.5s 1.5s forwards;
 }
 .l7{
-  animation: letterOne 1s 4s forwards;
+  animation: letterOne 0.5s 1.7s forwards;
 }
 .l9{
-  animation: letterOne 1s 4.5s forwards;
+  animation: letterOne 0.5s 1.9s forwards;
 }
 .l10{
-  animation: letterOne 1s 5s forwards;
+  animation: letterOne 0.5s 2.1s forwards;
 }
 .l12{
-  animation: letterOne 1s 5.5s forwards;
+  animation: letterOne 0.5s 2.3s forwards;
 }
 .l13{
-  animation: letterOne 1s 6s forwards;
+  animation: letterOne 0.5s 2.5s forwards;
 }
 .l14{
-  animation: letterOne 1s 6.5s forwards;
+  animation: letterOne 0.5s 2.7s forwards;
 }
 .l16{
-  animation: letterOne 1s 7s forwards;
+  animation: letterOne 0.5s 2.9s forwards;
 }
 .l17{
-  animation: letterOne 1s 7.5s forwards;
+  animation: letterOne 0.5s 3.1s forwards;
 }
 .l18{
-  animation: letterOne 1s 8s forwards;
+  animation: letterOne 0.5s 3.3s forwards;
 }
 .l19{
-  animation: letterOne 1s 8.5s forwards;
+  animation: letterOne 0.5s 3.5s forwards;
 }
 .l20{
-  animation: letterOne 1s 9s forwards;
+  animation: letterOne 0.5s 3.7s forwards;
 }
 .l21{
-  animation: letterOne 1s 9.5s forwards;
+  animation: letterOne 0.5s 3.9s forwards;
 }
 .l22{
-  animation: letterOne 1s 10s forwards;
+  animation: letterOne 0.5s 4.1s forwards;
 }
 @keyframes letterOne{
    to {opacity: 1;}

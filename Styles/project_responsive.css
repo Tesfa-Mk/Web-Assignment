@@ -1,0 +1,56 @@
+@media screen and (max-width : 600px){
+  html{
+    height: 100vh;
+    position: relative;
+  }
+  body{
+    padding: 0px;
+    
+    }
+  
+  .max-width{
+  padding: 12px;
+}
+.navbar{
+  position: static;
+}
+.navbar .logo a{
+font-size: 23px;
+margin-bottom: 10px;
+}
+.navbar .menu {
+ display: flex;
+ margin-top: 10px;
+ justify-content: space-between;
+ padding-right: 10px;
+}
+.navbar .menu li a{
+  margin: 0;
+  font-size: 14px;
+}
+.navbar .max-width{
+  display: block;
+}
+.section h2{
+  font-size: 25px;
+}
+.work__container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 90px;
+}
+.work_img_container{
+  width: 100%;
+  height: auto;
+}
+.section-title{
+  margin: 0 auto 20px;
+}
+.project-title{
+  font-size:20px;
+  text-align: center;
+}
+footer{
+  height: 20px;
+}
+}

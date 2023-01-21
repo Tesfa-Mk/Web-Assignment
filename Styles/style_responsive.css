@@ -1,7 +1,10 @@
 @media screen and (max-width : 600px){
+  html{
+    height: 100vh;
+  }
   body{
     padding: 0px;
-    
+    position: relative;
     }
   
   .max-width{
@@ -39,7 +42,7 @@ footer{
   height: 20px;
   padding: 5px;
   position: absolute;
-  bottom: 0;
+  bottom: -90px;
 } 
   
 }

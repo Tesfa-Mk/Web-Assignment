@@ -58,7 +58,6 @@ goldenrod;
 .work__img{
   display: flex;
   flex-direction: column;
-  box-shadow: 0 8px 25px rgba(245, 243, 240, 0.315);
   border-radius: 0.5rem;
   padding: 0;
   background-color: rgba(255, 255, 255, 1);
@@ -91,6 +90,10 @@ goldenrod;
   background-color:#1B244A;
   color:antiquewhite; 
   border-radius: .5rem;
+}
+.tour{
+  background-color: black;
+  color: antiquewhite;
 }
 .project-title:hover{
   letter-spacing: 2px;

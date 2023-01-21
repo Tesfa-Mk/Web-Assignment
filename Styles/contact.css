@@ -6,10 +6,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  
 }
 
 .contact {
   font-family: "Poppins", sans-serif;
+  
 }
 .contact .contact-content {
   display: flex;
@@ -52,13 +54,16 @@ section .title::after {
 
 .contact-main {
   display: flex;
-  background-image: linear-gradient(rgba(54, 73, 184, 0.5), rgba(85, 6, 79, 0.5));
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(7, 7, 7, 0.5)),
+  url(../images/shubham-dhage-aecIHElCkQI-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   color: rgb(255, 255, 255);
   min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
+
   font-family: "Ubuntu", sans-serif;
+  
 }
 .contact-main-text {
   position: absolute;
@@ -101,20 +106,25 @@ section .title::after {
   content: "Get in touch";
 }
 
-
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 
 .contact .right form .field,
 .contact .right form .fields .field {
   
   
   height: 45px;
-  width: 70%;
+  width: 100%;
   margin-bottom: 15px;
 }
 
 .contact .right form .textarea {
   height: 80px;
-  width: 70%;
+  width: 100%;
 }
 .contact .right form .name {
   margin-right: 10px;
@@ -122,6 +132,7 @@ section .title::after {
 .contact .right form .field input,
 .contact .right form .textarea textarea {
   height: 100%;
+  width: 200%;
   border: 1px solid lightgrey;
   border-radius: 6px;
   outline: none;

@@ -16,8 +16,8 @@
 
 
 .navbar {
-  background-color: rgb(177, 75, 193);
-  
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(7, 7, 7, 0.5));
+  opacity: 0.6;
   position: fixed;
   margin-bottom: 0 auto;
   width: 100%;

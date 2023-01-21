@@ -79,9 +79,6 @@ body{
   font-size: 21px;
   color: rgb(231, 153, 36);
 }
-.navbar.apear .menu li a:hover {
-  color: #fff;
-}
 
 /* menu btn styling */
 .menu-btn {
@@ -91,22 +88,13 @@ body{
   
 }
 
-/* responsive media query start */
-
-
-
-section {
-  padding: 100px 0;
-}
 .max-width {
   padding: 0 80px;
   margin: auto;
 }
 footer {
   font-family: "Poppins", sans-serif;
- 
 }
-
 
 .home {
   display: flex;
@@ -231,4 +219,3 @@ footer span a:hover {
 /* -----------------------------------*/
 /*RESPONSIVE FEATURES*/
 /* -----------------------------------*/
-

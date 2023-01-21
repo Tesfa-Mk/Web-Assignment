@@ -1,0 +1,42 @@
+@media screen and (max-width : 400px){
+  body{
+    padding: 0px;
+    }
+  
+  .max-width{
+  padding: 12px;
+}
+
+.navbar .logo a{
+font-size: 23px;
+margin-bottom: 10px;
+}
+.navbar .menu {
+ display: flex;
+ margin-top: 10px;
+ justify-content: space-between;
+ padding-right: 10px;
+}
+.navbar .menu li a{
+  margin: 0;
+  font-size: 14px;
+}
+.navbar .max-width{
+  display: block;
+}
+
+.home .home-content .text-1{
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: start;
+} 
+.home .home-content .text-2{
+  font-size: 40px;
+}
+footer{
+  font-size: 12px;
+  height: 20px;
+  padding: 5px;
+} 
+  
+}

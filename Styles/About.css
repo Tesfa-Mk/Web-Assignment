@@ -42,7 +42,7 @@ body{
 
 .group-members .members:hover{
   transform: scale(1.1);
-  width: 50%;
+  width: 25%;
 }
 
 .group-members .members{
@@ -52,7 +52,7 @@ body{
    width:300px;
    padding: 20px;
    line-height: 20px;
-   color:#8e8b8b;
+   color:#fcfcfc;
    position: relative;
    border-radius: 3%;
 }
@@ -63,10 +63,11 @@ body{
   margin-top: 50px;
 }
 .group-members .members p.role{
-  color: #ccc;
+  color: rgb(75, 72, 72);
   font-size: 12px;
   text-transform: uppercase;
   margin:12px 0;
+  font-weight: 700;
 }
 
 .group-members .members .pic{

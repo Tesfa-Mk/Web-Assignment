@@ -1,96 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-.about{
-    font-family: "Poppins", sans-serif;
-    
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-family:  'montserrat', sans-serif;
 }
 
-section .title {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: "Ubuntu", sans-serif;
-  }
-  section .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 250px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-  }
-  .about .title::after {
-    content: "who are we?";
-  }
-  section .title::after {
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    font-size: 20px;
-    color: rgb(75, 159, 175);
-    padding: 0 5px;
-    background: rgb(255, 255, 255);
-    transform: translateX(-50%);
-  }
+body{
+  background-image: url('../images/shubham-dhage-aecIHElCkQI-unsplash.jpg');
+  background-size: cover;
+  background-position: top center;
+  position: relative;
   
-  
-  .about .about-content .right {
-    width: 55%;
-  }
-  .about .about-content .right .text {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  .about .about-content .right .text span {
-    color: rgb(255, 236, 27);
-  }
-  .about .about-content .right p {
-    display: flex;
-    align-items: center;
-  }
-  .about .about-content .right a {
-    display: inline-block;
-    background: rgb(0, 77, 4);
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 3px solid rgb(27, 203, 4);
-  }
-  .about .about-content .right a:hover {
-    background-color: transparent;
-    color: rgb(0, 77, 4);
-    transition: all 0.5s ease;
-  }
-  about .about-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-h1{
-  padding: 10px 30px;
-    font-size:30px;
-    display: flex;
-    justify-content: center;
-    align-items: center
-    
-    
 }
-    
-.project-list{
+
+.container{
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
   
+
+}
+.container h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom:60px ;
+  text-align: center;
+  color:#fff;
+}
+
+.group-members{
   display: flex;
+  text-align: center;
+  width:auto ;
   justify-content: center;
-  align-items: center
+ 
 }
-ul.li.span{
-  color:rebeccapurple;
+
+.group-members .members:hover{
+  transform: scale(1.1);
+  width: 50%;
+}
+
+.group-members .members{
+   background: #a4a5a3;
+   margin:5px;
+   margin-bottom: 50px ;
+   width:300px;
+   padding: 20px;
+   line-height: 20px;
+   color:#8e8b8b;
+   position: relative;
+   border-radius: 3%;
+}
+
+.group-members .members h3{
+  color: #6b8555;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.group-members .members p.role{
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin:12px 0;
+}
+
+.group-members .members .pic{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position: absolute;
+  top:-50px;
+  left:50%;
+  transform: translate(-50%);
+  background: #fff;
+   
+}
+.group-members .members .pic img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .group-members {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 947px) {
+  .group-members{
+    flex-wrap: wrap;
+  }
+}
+
+/* -----------------------------------*/
+/* FOOTER SECTION STYLING */
+/* -----------------------------------*/
+
+footer {
+  background: rgb(1, 48, 4);
+  height: 80px;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: rgb(248, 244, 30);
+  text-decoration: none;
+}
+footer span a:hover {
+  color: rgb(70, 255, 70);
+  font-size: 18px;
+  text-decoration: none;
 }

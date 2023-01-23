@@ -10,7 +10,7 @@
 
 body{
   padding-top: 50px;
-  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(7, 7, 7, 0.5)),
+  background: 
     url(../images/shubham-dhage-aecIHElCkQI-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
